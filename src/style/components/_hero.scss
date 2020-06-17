@@ -1,0 +1,70 @@
+.landing {
+  position: relative;
+  background: url('../assets/img/showcase.png') no-repeat center center/cover;
+  height: 593px;
+  width: 1640px;
+  margin: auto;
+}
+
+.landing-inner {
+  color: #fff;
+  height: 65%;
+  position: absolute;
+  bottom: 0;
+  margin: 0 10rem;
+}
+
+.hero-title-header {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.hero-title {
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+
+.hero-title-category {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.hero-button {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Roboto-Medium';
+  font-size: 30px;
+  padding: 0.5rem 1.5rem;
+  border: #0eb7d2 2px double;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  margin: 1rem 0;
+}
+
+.hero-button:hover {
+  opacity: 0.9;
+  background-color: #0eb7d2;
+  color: #fff;
+}
+
+.image-preview {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem 5rem;
+}
+
+.image-preview img {
+  width: 161px;
+  height: 102px;
+  margin: 0 1rem;
+  box-shadow: -1px 0px 21px -6px rgba(0, 0, 0, 0.8);
+}
+
+.image-preview img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

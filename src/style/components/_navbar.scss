@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  opacity: 0.9;
+  width: 1640px;
+}
+
+.navbar h1 {
+  margin: 0 13rem;
+  color: #fff;
+  font-family: 'Leelawadee';
+  font-size: 24px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
