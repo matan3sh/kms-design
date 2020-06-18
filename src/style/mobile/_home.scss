@@ -1,0 +1,14 @@
+@media (max-width: 1616px) {
+  .home-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .home-right {
+    display: none;
+  }
+}
+
+@media (max-width: 1114px) {
+  .container {
+    margin-left: 10rem;
+  }
+}
